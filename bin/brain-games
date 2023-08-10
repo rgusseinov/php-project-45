@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+	echo "php bin/brain-games.php <br/>";
+	echo "Welcome to the Brain Games!";
+?>
