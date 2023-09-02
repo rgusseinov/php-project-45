@@ -48,4 +48,3 @@ function getProgression(int $elementsNum, int $firstElement, int $delta): array
 
     return $progression;
 }
-

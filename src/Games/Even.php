@@ -29,4 +29,3 @@ function isEven(int $num): bool
 {
     return (($num % 2) === 0);
 }
-

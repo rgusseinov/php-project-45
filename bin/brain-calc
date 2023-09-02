@@ -12,5 +12,5 @@ if (file_exists($autoloadPath1)) {
 
 use function Php\Project\Games\Calc\runGame;
 
-runGame();
+		runGame();
 

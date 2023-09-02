@@ -33,4 +33,3 @@ function startGame(array $questionsAndAnswers, string $description): void
 
     line("Congratulations, %s!", $userName);
 }
-

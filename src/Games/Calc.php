@@ -12,7 +12,7 @@ function runGame(): void
 {
     $questionsAndAnswers = [];
     $operations = ['+', '-', '*'];
-    
+
     for ($i = 0; $i < NUMBER_OF_QUESTIONS; $i++) {
         $randomFrom = 1;
         $randomTo = 10;
@@ -43,4 +43,3 @@ function getOperationValue(string $operation, int $num1, int $num2): string
             throw new \Exception('Operation not found!');
     }
 }
-
