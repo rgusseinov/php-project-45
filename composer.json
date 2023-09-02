@@ -1,6 +1,9 @@
 {
   "name": "hexlet/php-package",
-  "bin": ["bin/php-package", "bin/brain-games"],
+  "bin": ["bin/php-package",
+	  "bin/brain-games",
+	  "bin/brain-even"
+  	],
   "type": "library",
   "authors": [
     {
@@ -19,7 +22,9 @@
       "Php\\Package\\Tests\\": "tests"
     },
     "files": [
-    	"src/Cli.php"
+    	"src/Cli.php",
+	"src/Engine.php",
+	"src/Games/Even.php"
     ]
   },
   "require": {
