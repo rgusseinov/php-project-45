@@ -2,7 +2,11 @@
   "name": "hexlet/php-package",
   "bin": ["bin/php-package",
 	  "bin/brain-games",
-	  "bin/brain-even"
+	  "bin/brain-even",
+	  "bin/brain-calc",
+	  "bin/brain-gcd",
+	  "bin/brain-progression",
+	  "bin/brain-prime"
   	],
   "type": "library",
   "authors": [
@@ -24,7 +28,11 @@
     "files": [
     	"src/Cli.php",
 	"src/Engine.php",
-	"src/Games/Even.php"
+	"src/Games/Even.php",
+	"src/Games/Calc.php",
+	"src/Games/Gcd.php",
+	"src/Games/Prime.php",
+	"src/Games/Progression.php"
     ]
   },
   "require": {
